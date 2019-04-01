@@ -1,0 +1,2 @@
+FAI_DEBOOTSTRAP="buster http://deb.debian.org/debian"
+FAI_DEBOOTSTRAP_OPTS="--arch amd64 --exclude=nano,vim-tiny,mawk --no-check-gpg --include=vim,etckeeper,less,bash-completion,strace,lsof,debconf-utils,aptitude,python,gawk,rsync,wget,curl,screen,tmux,debsums,dialog,psmisc,file,time,dselect,netcat-traditional,procinfo,mbuffer,ftp,lftp,openssl,whois,p7zip-full,pinfo,pixz,pigz,pbzip2,iperf,tcpdump --components=main,contrib,non-free"

@@ -27,5 +27,5 @@ case $HOSTNAME in
         ifclass AMD64 && echo SLC7_64
 	;;
     *)
-        echo "FAIBASE DEBIAN DEMO" ;;
+        echo "FAIBASE DEBIAN" ;;
 esac
